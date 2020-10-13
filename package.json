@@ -4,6 +4,7 @@
   "description": "Component that alows users to perform interactive rebasement inside modal",
   "main": "index.js",
   "dependencies": {
+    "axios": "0.20.0",
     "vue": "2.6.12"
   },
   "devDependencies": {
@@ -21,7 +22,7 @@
     "webpack-dev-server": "3.11.0"
   },
   "scripts": {
-    "start": "npm run dev", 
+    "start": "npm run dev",
     "dev": "webpack-dev-server --mode development",
     "prod": "webpack --mode production"
   },
